@@ -24,9 +24,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '8c4-8mf2=v#la7%_d4kdmw9ss%4!vlh1+5bg2qigd$f^f(^2^y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'projetoautomacao.herokuapp.com', 'www.projetoautomacao.com', 'projetoautomacao.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'projetoautomacao.herokuapp.com', 'www.projetoautomacao.com', 'projetoautomacao.com',]
 
 
 # Application definition
